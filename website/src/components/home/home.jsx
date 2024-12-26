@@ -167,7 +167,7 @@ const Hero = () => {
                 </div>
                 <div className="flex items-center space-x-4">
                   <Mail className="text-gray-600" />
-                  <span>contact@greylink.com</span>
+                  <span>contact@greylink.co.zw</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <MapPin className="text-gray-600" />
