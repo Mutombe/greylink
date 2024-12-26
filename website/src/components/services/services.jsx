@@ -41,7 +41,7 @@ const EnhancedServices = () => {
       title: "Bread and Breakfast",
       description: "Providing comfort and excellence with precision and innovation",
       image: "/bed3.jpg",
-      link: "/constrution",
+      link: "/stays",
       logoType: "bnb",
       features: ["Luxury Rooms", "Gourmet Dining", "24/7 Service", "Events Hosting"],
       icons: [Home, Coffee, Star, Calendar]
