@@ -26,6 +26,7 @@ const App = () => {
     <Router>
       <div className="min-h-screen">
         <Toaster position="top-right" />
+        <ScrollToTop />
         <NavBar />
         <Routes>
           <Route path="/" element={
