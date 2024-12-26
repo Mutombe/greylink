@@ -15,44 +15,44 @@ const ContactPage = () => {
       id: 1,
       name: "Greylink Head Office",
       type: "Corporate Office",
-      address: "123 Main Street, Business District",
+      address: "Graniteside, Harare",
       phone: "+1234567890",
-      email: "info@greylink.com",
+      email: "info@greylink.co.zw",
       hours: "Monday - Friday: 8:00 AM - 5:00 PM",
-      coordinates: [-26.2041, 28.0473],
+      coordinates: [-17.8576941,31.0503871,14],
       services: ["Corporate Services", "Project Management", "Client Relations"]
     },
     {
       id: 2,
       name: "Greylink Inn & Restaurant",
       type: "Hospitality",
-      address: "456 Hospitality Road, Resort Area",
+      address: "Waterfalls, Harare, Zimbabwe",
       phone: "+1234567891",
-      email: "stay@greylinkinn.com",
+      email: "stay@greylinkinn.co.zw",
       hours: "24/7",
-      coordinates: [-26.1052, 28.0560],
+      coordinates: [-17.8845475,31.0256626,17],
       services: ["Accommodation", "Fine Dining", "Events"]
     },
     {
       id: 3,
       name: "Greylink Tours Office",
       type: "Tourism Services",
-      address: "789 Tourism Avenue",
+      address: "Waterfalls, Harare, Zimbabwe",
       phone: "+1234567892",
-      email: "tours@greylink.com",
+      email: "tours@greylink.co.zw",
       hours: "Monday - Saturday: 9:00 AM - 6:00 PM",
-      coordinates: [-26.1241, 28.0473],
+      coordinates: [-17.8576941,31.0503871,14],
       services: ["Tour Packages", "Travel Planning", "Transport Services"]
     },
     {
       id: 4,
       name: "Greylink Construction & Drilling",
       type: "Construction Services",
-      address: "321 Industrial Park",
+      address: "Waterfalls, Harare, Zimbabwe",
       phone: "+1234567893",
-      email: "construction@greylink.com",
+      email: "construction@greylink.co.zw",
       hours: "Monday - Friday: 7:00 AM - 4:00 PM",
-      coordinates: [-26.1841, 28.0373],
+      coordinates: [-17.8576941,31.0503871,14],
       services: ["Construction", "Borehole Drilling", "Site Assessment"]
     }
   ];
@@ -71,7 +71,7 @@ const ContactPage = () => {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        className="bg-gray-900 text-white py-20"
+        className="bg-gray-800 text-white py-20"
       >
         <div className="max-w-7xl mx-auto px-4">
           <motion.h1
@@ -141,7 +141,7 @@ const ContactPage = () => {
 
             <div className="lg:col-span-2 h-[600px] rounded-lg overflow-hidden shadow-lg">
               <MapContainer
-                center={[-26.2041, 28.0473]}
+                center={[-17.8576941,31.0503871,14]}
                 zoom={12}
                 style={{ height: '100%', width: '100%' }}
                 zoomControl={false}

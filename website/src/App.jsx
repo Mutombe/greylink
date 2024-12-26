@@ -8,6 +8,18 @@ import EnhancedServices from './components/services/services';
 import { Footer } from './components/footer/footer';
 import { Hero, Services, Contact } from './components/home/home';
 import { Toaster, toast } from 'sonner';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
+
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
 
 const App = () => {
   return (
